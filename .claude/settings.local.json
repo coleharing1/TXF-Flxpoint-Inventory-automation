@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(npx playwright:*)",
+      "Bash(TEST_MODE=true node flxpoint-export.js)",
+      "Bash(node:*)",
+      "Bash(TEST_MODE=true SHOW_BROWSER=true node flxpoint-export.js)",
+      "Bash(SHOW_BROWSER=true node flxpoint-export.js)",
+      "Bash(chmod:*)",
+      "Bash(mkdir:*)",
+      "Bash(./schedule-setup.sh:*)",
+      "Bash(cp:*)",
+      "Bash(launchctl load:*)",
+      "Bash(launchctl:*)",
+      "Bash(curl:*)",
+      "Bash(npm start)",
+      "Bash(lsof:*)",
+      "Bash(kill:*)",
+      "Bash(open http://localhost:3000)",
+      "Bash(sqlite3:*)",
+      "Bash(tree:*)",
+      "Bash(open http://localhost:3000/test-inventory.html)",
+      "Bash(mv:*)",
+      "Bash(grep:*)",
+      "Bash(open http://localhost:4000)",
+      "Bash(awk:*)",
+      "Bash(npm test)"
+    ],
+    "deny": []
+  }
+}
